@@ -13,6 +13,47 @@ Domain Path: /languages/
 Tags: purple, light, white, gray, one-column, two-columns, right-sidebar, fluid-layout, responsive-layout, responsive-layout, translation-ready, custom-background, custom-colors, custom-menu, featured-images, full-width-template, post-formats, theme-options, threaded-comments
 */
 
-.body{
-	background: red;
+.film-details,
+.film-details li {
+    list-style: none;
+    padding: 0;
+}
+
+.film-details li {
+    padding: 10px 0;
+    border-bottom: 1px dashed #ccc;
+    font-size: 16px;
+}
+
+.film-entry-title {
+    margin-bottom: 20px;
+}
+
+.film-wrap .more-link {
+    display: none;
+}
+
+.film-wrap li {
+    font-size: 14px;
+}
+
+#secondary .film-wrap {
+    clear: both;
+    border-bottom: 1px dotted #ccc;
+    margin-bottom: 20px;
+}
+
+#secondary .film-wrap .entry-content, #secondary .film-wrap .film-details, #secondary .film-wrap .section-divider {
+    display: none;
+}
+
+#secondary .film-wrap .wp-post-image {
+    width: 50px;
+    float: left;
+}
+
+#secondary .film-wrap .film-entry-title {
+    font-size: 15px;
+    margin-left: 10px;
+    float: left;
 }
