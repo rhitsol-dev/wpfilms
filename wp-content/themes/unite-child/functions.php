@@ -16,3 +16,8 @@ if ( ! function_exists( 'unite_child_scripts' ) ) :
     }
 endif;
 add_action( 'wp_enqueue_scripts', 'unite_child_scripts' );
+
+/**
+ * Films custom post type
+ */
+require get_stylesheet_directory() . '/inc/film-cpt.php';
